@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+  color:black;
+  margin: 0;
+    padding-top: 800px;
+}
+
+#TimBerners-Lee {
+    width: 400px;
+    margin-bottom: 50px;
+    border-radius: 50%
+}
+
+#head2 {
+    font-family: cursive;
+}
+
+p {
+    font-family: monospace;
+}
+
+
+
+
+#Intro {
+
+    position: absolute;
+    height: 800px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background:linear-gradient(crimson 0%, darkblue 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9
+}
+
+.web {
+
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+.menu {
+   
+    list-style: none;
+    font-family:fantasy;
+    position:absolute;
+    top:10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+
+.links {
+    float: left;
+    color: white;
+    padding: 5px;
+    font-family: 'Langar', cursive;
+    font-size: 25px
+}
+
+.links:hover 
+{
+    background-color:cyan;
+    font-size: 30px;
+    color:black;
+}
+
